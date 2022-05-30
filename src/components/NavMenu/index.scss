@@ -1,0 +1,22 @@
+.nav-menu {
+  a {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    transition: 0.2s all;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      border-bottom: 2px solid red;
+    }
+    &.active {
+      color: blue;
+      border-bottom: 2px solid blue;
+    }
+  }
+}
